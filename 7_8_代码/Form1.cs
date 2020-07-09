@@ -86,6 +86,8 @@ namespace _7_8_代码
                 sql = "update [学生信息$] set 姓名='{0}',班级='{1}',电话号码='{2}',状态='正常' where 学号={3}";
                 sql = string.Format(sql, this.textBox2.Text, this.textBox3.Text, this.textBox4.Text, this.textBox1.Text);
 
+
+
             }
 
             //SQL语句执行
